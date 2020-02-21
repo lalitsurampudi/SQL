@@ -1,2 +1,3 @@
-SELECT *
+SELECT Gender ,COUNT(Gender) AS X
 FROM HumanResources.Employee
+GROUP BY Gender
