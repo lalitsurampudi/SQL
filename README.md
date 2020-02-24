@@ -38,6 +38,13 @@
     - UNION removes duplicate rows, where as UNION ALL does not
     - UNION has to perform distinct sort to remove duplicates, which makes it less faster than UNION ALL
 - UNION combines records in tables, where as JOIN combines columns in tables
+- Views
+  - Advantages
+    - Views can be used to reduce the complexity of the database schema
+    - Views can be used as a mechanism to implement row and column level security
+    - Views can be used to present aggregated data and hide detailed data
+    - To modify a view - ALTER VIEW statement
+    - To Drop a view - DROP VIEW vWName
 - Stored procedure
     - It is a group of T-SQL statements. A SP can be used to save a specific query and call it by it's name.
     - Microsoft recommends **against** using `sp_` prefix as it is allocated for system stored procedures.
@@ -52,3 +59,7 @@
             - View the text of a stored procedure
         - sp_depends procedure_name
             - View stored procedure dependencies for a table, check if there are any stored procedures that are referencing a table that you are about to drop.
+
+
+## References
+- [Link 1](http://csharp-video-tutorials.blogspot.com/p/free-sql-server-video-tutorials-for.html)
