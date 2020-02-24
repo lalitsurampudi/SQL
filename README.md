@@ -11,3 +11,4 @@ SQL IDEs
 
 - VS Code SQL Server extension
 - Azure Data Studio
+- JetBrains DataGrip
